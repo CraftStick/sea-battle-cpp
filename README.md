@@ -1,23 +1,20 @@
-# 🎯 Sea Battle Game
+# Sea Battle
 
-A simple command-line Sea Battle game written in C++.
+[English](README.md) · [Русский](README.ru.md)
 
-## 📷 Preview
-<img width="570" alt="Снимок экрана 2025-05-08 в 15 26 37" src="https://github.com/user-attachments/assets/49c16c8e-c453-4df7-9f39-f8c96fe224fc" />
+A simple command-line Sea Battle game in C++.
 
+## Features
 
-## 🕹️ How to Play
+- The computer randomly places 5 ships on a 10×10 grid
+- Sink them all by guessing their coordinates
+- Symbols: `X` — hit, `O` — miss, blue cells — unexplored
 
-- The computer randomly places 5 ships on a 10x10 grid.
-- Your goal: sink them all by guessing their coordinates.
-- Symbols:
-  - `X` = hit
-  - `O` = miss
-  - Blue cells = unexplored
+## Getting Started
 
-## 🛠️ How to Run
+Requires a C++ compiler (for example `g++`).
 
-### On macOS/Linux:
 ```bash
 g++ SeaBattle.cpp -o SeaBattle
 ./SeaBattle
+```
